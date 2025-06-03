@@ -5,33 +5,20 @@ import java.time.LocalTime;
 
 public class Main {
     public static void main(String[] args) {
-        int edadPersona;
-        int cantidadHijos;
+        byte edadPersona;
+        byte cantidadHijos;
+        byte estrellasCalificacion;
+        byte porcentajeBateria;
+
         int productosDisponibles;
-        int identificadorProducto;
-        int puntajeExamen;
-        int estrellasCalificacion;
-        int porcentajeBateria;
-        int cantidadLibrosBiblioteca;
         int puntuacionVideojuego;
+        int cantidadLibrosBiblioteca;
 
         long poblacionMundial;
         long cantidadVisitantesSitioWeb;
 
-        double precioProducto;
-        double salarioTrabajador;
-        double distanciaCiudades;
-        double temperaturaAmbiente;
-        double velocidadAuto;
-        double precioBilleteAvion;;
-        double calificacionPromedioCurso;
-        double puntajePromedioDeportista;
-        double tipoCambioDivisas;
-        double volumenRecipiente;
-        double pesoPersona;
-        double notaFinalCurso;
-        double constantePlanck;
-
+        float puntajeExamen;
+        float temperaturaAmbiente;
         float alturaPersona;
 
         boolean interruptorEncendido;
@@ -48,6 +35,7 @@ public class Main {
         char caracterEspecial;
         char teclaPulsada;
 
+        String identificadorProducto;
         String matriculaVehiculo;
         String numeroTelefono;
         String codigoPostal;
@@ -61,6 +49,5 @@ public class Main {
         LocalDate fechaNacimiento;
 
         LocalTime horaEvento;
-        
     }
 }
